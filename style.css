@@ -1,0 +1,27 @@
+.any-text {
+    width: 300px;
+    border: 1px solid black;
+    padding-bottom: 0;
+}
+
+::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    background-color:	#F0F8FF;
+    color: '';
+    border-bottom: 1px dotted black;
+}
+
+li:nth-child(even) {
+    background-color:	#FFF8DC;
+    color: #708090;
+    border-bottom: 1px dotted black;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+

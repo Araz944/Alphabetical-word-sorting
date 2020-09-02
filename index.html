@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sort words by alphabetical order</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="index.html" method="POST">
+            <label>Add a word</label>
+            <input type="text" onfocus="defaultField()">
+            <input type="button" id="myBtn" value="Add" onclick="addClick()">
+        </form>
+        <form>
+            <div>Sort the words</div>
+            <ul class="any-text"></ul>
+            <input type="button" value="Sort" name="sort" onclick="sortList()">
+            <span></span>
+        </form>
+        <script src="main.js"></script>
+    </body>
+</html>
